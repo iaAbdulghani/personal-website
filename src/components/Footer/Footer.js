@@ -1,7 +1,8 @@
 import React from 'react'
+import './Footer.css'
 
 export default function Footer() {
   return (
-    <div></div>
+    <div className='bottom'>Ismaeel Abdulghani</div>
   )
 }

@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
+
+import Navbar from './components/Navbar/Navbar.js';
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
 import Experience from "./pages/Experience"
 import Contact from "./pages/Contact"
-import Footer from "./components/Footer"
+import Footer from "./components/Footer/Footer.js"
 
 function App() {
   return (

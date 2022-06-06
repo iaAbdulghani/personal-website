@@ -1,0 +1,7 @@
+.bottom{
+    position: absolute;
+    
+    bottom: 1px;
+    left: 2px;
+    right: 0;
+}
