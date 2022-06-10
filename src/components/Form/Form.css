@@ -1,6 +1,12 @@
-.input {
-    padding-top: 1px;
-  
- 
-    
+.items div{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+p{
+    margin-left: 5px;
+}
+
+textarea {
+    font-family: inherit;
 }
