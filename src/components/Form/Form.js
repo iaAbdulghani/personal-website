@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react'
 import './Form.css'
+import axios from 'axios'
 class Form extends React.Component {
   constructor(props){
       super(props);
@@ -10,7 +11,7 @@ class Form extends React.Component {
           email: '',
           message: '',
           disabled: false,
-          emailSent: null,
+          
       }
   }
   
@@ -20,6 +21,27 @@ class Form extends React.Component {
       this.setState({
           disabled: true,
       })
+      axios.post('/api/email', this.state)
+      .then(res=>{
+          if(res.data.success){
+            this.setState({
+                disabled: false,
+                
+            })
+          }else{
+            this.setState({
+                disabled: false,
+                
+            })
+          }
+        })
+        .catch(err=>{
+            this.setState({
+                disabled: false,
+               
+            })
+        })
+      
     }
     handleChange = (event)=>{
         const target = event.target
@@ -41,6 +63,7 @@ class Form extends React.Component {
             <div><input type="email" id="email" placeholder="Email"  onChange={this.handleChange} /></div>
            <div> <textarea id="message" placeholder="Message"  onChange={this.handleChange} /></div>
             <div><input type="submit"/></div>
+            
         </form>
       )
   }
