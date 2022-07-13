@@ -1,11 +1,12 @@
 import React from 'react'
+import Item from '../components/Item/Item'
 
-export default function Experience() {
+
+export default function Experience(){
   return (
     <span>
       <div>
-        <h3>Coding Instructor</h3>
-        <p>I have worked as a coding instructor at Codeie NJ, </p>
+        <Item name={"Test"} place={"Test"} picture={"Test"} description={"test"}/>
 
       </div>
       </span>
