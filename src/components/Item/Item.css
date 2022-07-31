@@ -1,0 +1,14 @@
+.ItemHolder{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 450px;
+    max-height: 225px;
+    display: inline-block;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
