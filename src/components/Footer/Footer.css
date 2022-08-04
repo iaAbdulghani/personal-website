@@ -4,4 +4,10 @@
     bottom: 0px;
     left: 0px;
     right: 0;
+    
+}
+
+a{
+    padding-left: 10px;
+    text-decoration: none;
 }
