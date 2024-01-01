@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.1a53e2a7.css",
-    "main.js": "/personal-website/static/js/main.058b5fe4.js",
+    "main.css": "/personal-website/static/css/main.91ba4d72.css",
+    "main.js": "/personal-website/static/js/main.d8f0a582.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/genshin.png": "/personal-website/static/media/genshin.0c110094a5003d6dfdcc.png",
     "static/media/LetMeGuess.png": "/personal-website/static/media/LetMeGuess.f0357629413d180299bd.png",
+    "static/media/mow.png": "/personal-website/static/media/mow.6b447dbf6da82e9f9446.png",
     "static/media/sci-building-70.jpeg": "/personal-website/static/media/sci-building-70.855232dcb100a616a98e.jpeg",
+    "static/media/bot.png": "/personal-website/static/media/bot.e39a0001838ac91afdd3.png",
     "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/personal-website/index.html",
-    "main.1a53e2a7.css.map": "/personal-website/static/css/main.1a53e2a7.css.map",
-    "main.058b5fe4.js.map": "/personal-website/static/js/main.058b5fe4.js.map",
+    "main.91ba4d72.css.map": "/personal-website/static/css/main.91ba4d72.css.map",
+    "main.d8f0a582.js.map": "/personal-website/static/js/main.d8f0a582.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a53e2a7.css",
-    "static/js/main.058b5fe4.js"
+    "static/css/main.91ba4d72.css",
+    "static/js/main.d8f0a582.js"
   ]
 }
